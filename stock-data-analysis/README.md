@@ -20,6 +20,10 @@ This report analyzes the historical stock performance of user-specified tickers,
 
 Stock data is acquired, cleaned, and analyzed to compare performance based on daily returns, cumulative returns, and volatility.
 
+**How to run it**
+
+Just run `python3 main.py` command in your terminal and follow the instructions.
+
 **Plotting and Visualization:**
 
 * Adjusted close prices, daily returns, cumulative returns, and volatility are plotted.
@@ -29,11 +33,15 @@ Stock data is acquired, cleaned, and analyzed to compare performance based on da
 **Results:**
 
 Based on user input the following stocks were analysed.
+![Stock prices over time](.stock_prices.png)
 
 * **Best Performing Stock:** AAPL (cumulative return: 42.11%)
+![Cumulative Return](./cumulative_return_comparison.png)
 * **Performance Comparison:**
     * **AAPL:** Average Daily Return: 0.18%, Volatility: 1.66%
+    ![Average Daily Return](./AAPL_analysis.png)
     * **GOOG:** Average Daily Return: 0.12%, Volatility: 1.84%
+    ![Average Daily Return](./GOOG_analysis.png)
 
 **Summary Statistics:**
 
