@@ -15,14 +15,14 @@ To further deepen my knowledge, I completed the Google Data Analytics Profession
 
 * **Description:** This project investigates the relationship between music preferences and mental well-being. Using a dataset from Kaggle, I explored correlations between preferred music genres, listening habits, and mental health indicators such as anxiety, depression, insomnia, and OCD. The analysis involved data cleaning in Excel, SQL analysis in BigQuery, and data visualization in Tableau to identify potential associations and trends.
 * **Technologies Used:** Excel, SQL (BigQuery), Tableau
-* **Link:** [Music and Mental Health analysis](https://github.com/lolita0919/data-analyst-portfolio/tree/main/music-and-mental-health-analysis)
+* **Link:** [Music and Mental Health analysis](https://github.com/Lolitosss/data-analyst-portfolio/tree/main/music-and-mental-health-analysis)
 * **Visualizations:** ![Music and Mental Health Dashboard](./music-and-mental-health-analysis/tableau/music_and_mental_health.png)
 
 ### 📈 Stock Market Analysis
 
 * **Description:** This project analyzes the historical stock performance of user-specified tickers, focusing on daily returns, volatility, and cumulative returns. Using data from Yahoo Finance (yfinance), I implemented a Python script to download, clean, and analyze stock data, providing insights for potential investment considerations. The analysis includes visualizations of adjusted close prices, daily returns, cumulative returns, and volatility.
 * **Technologies Used:** Python, Pandas, yfinance, Matplotlib
-* **Link:** [Stock Market Analysis](https://github.com/lolita0919/data-analyst-portfolio/tree/main/stock-data-analysis)
+* **Link:** [Stock Market Analysis](https://github.com/Lolitosss/data-analyst-portfolio/tree/main/stock-data-analysis)
 * **Visualizations:** ![Stock prices over time](./stock-data-analysis/stock_prices.png)
 
 ## Coming Soon: SQL Data Exploration & BI Expansion 📊
