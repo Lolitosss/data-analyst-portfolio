@@ -33,7 +33,7 @@ Just run `python3 main.py` command in your terminal and follow the instructions.
 **Results:**
 
 Based on user input the following stocks were analysed.
-![Stock prices over time](.stock_prices.png)
+![Stock prices over time](./stock_prices.png)
 
 * **Best Performing Stock:** AAPL (cumulative return: 42.11%)
 ![Cumulative Return](./cumulative_return_comparison.png)
