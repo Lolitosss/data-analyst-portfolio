@@ -9,10 +9,11 @@ This project analyzes the [`thelook_ecommerce`](https://console.cloud.google.com
 ### **Sales Trends**
 1. How have sales trended over time (monthly)?
 2. Which product categories generate the most and least revenue?
+3. Which product categories are profitable
 
 ### **Customer Insights**
-3. Who are the top customers by purchase volume?
-4. What is the average order value by customer segment?
+4. Who are the top customers by purchase volume?
+5. What is the average order value by customer segment?
 
 ## 📊 SQL Query Plan
 
@@ -106,7 +107,24 @@ ORDER BY total_revenue DESC;
 - **Nike and Air Jordan apparel** also perform well, hinting at strong brand loyalty among customers.
 - **Indestructable Aluminum Aluma Wallet** got the lowest revenue.
 
-## 3. **Who Are the Top Customers by Purchase Volume?**
+## 3. **Which product categories are profitable?**
+```sql
+SELECT 
+    p.category,  
+    ROUND(SUM(oi.sale_price), 2) AS total_revenue,  
+    ROUND(SUM(p.cost * oi.quantity), 2) AS total_cost,  
+    ROUND(SUM(oi.sale_price) - SUM(p.cost * oi.quantity), 2) AS profit  
+FROM `data-analyst-portfolio-453701.thelook_cleaned.sales_data` AS oi
+JOIN `data-analyst-portfolio-453701.thelook_cleaned.cleaned_products` AS p 
+    ON oi.product_id = p.id
+GROUP BY p.category  
+ORDER BY profit DESC;
+```
+### Insight:
+
+- Outerwear & Coats, Suits & Sport Coats, and Accessories are profitable.
+
+## 4. **Who Are the Top Customers by Purchase Volume?**
 ```sql
 SELECT 
     user_id,  
@@ -123,7 +141,7 @@ LIMIT 10;
 - The second and third top customers placed **11 and 8 orders**, spending around **$6,100 each**.  
 - A small group of customers accounts for a large percentage of sales, highlighting an opportunity for **loyalty programs and personalized marketing**.
 
-## 4. **What Is the Average Order Value by Customer Segment?**
+## 5. **What Is the Average Order Value by Customer Segment?**
 
 ```sql
 SELECT 
@@ -138,6 +156,8 @@ GROUP BY u.gender;
 
 - **Male customers** have a higher average order value **($120.76)** than females ($105.87).
 - Marketing strategies could focus on encouraging more spending among female customers.
+
+## 5. **Which product categories are profitable?**
 
 ### Methods used:
 
