@@ -25,9 +25,11 @@ To further deepen my knowledge, I completed the Google Data Analytics Profession
 * **Link:** [Stock Market Analysis](https://github.com/Lolitosss/data-analyst-portfolio/tree/main/stock-data-analysis)
 * **Visualizations:** ![Stock prices over time](./stock-data-analysis/stock_prices.png)
 
-## Coming Soon: SQL Data Exploration & BI Expansion 📊
+### 📦 TheLook E-Commerce SQL Analysis
 
-I'm expanding my data analysis toolkit to include advanced SQL capabilities. I've already utilized SQL for data cleaning and basic exploratory data analysis (EDA) in my music and mental health project. My next focus will be on working with large datasets to perform complex calculations, grouping operations, and in-depth analysis using JOINs. My goal is to demonstrate proficiency in extracting insights from relational databases and showcase my ability to handle large-scale data manipulation and analysis.
+* **Description:** This project explores the **TheLook E-Commerce** dataset using SQL to analyze **sales trends, customer behavior, and product performance**. The analysis involved data cleaning, complex JOIN operations, aggregations, and window functions to uncover key business insights, such as top-performing products, customer segments, and revenue trends. The project emphasizes SQL proficiency in handling large datasets and generating actionable insights.  
+* **Technologies Used:** SQL, BigQuery  
+* **Link:** [TheLook E-Commerce SQL Analysis](https://github.com/Lolitosss/data-analyst-portfolio/tree/main/thelook-e-commerce-sql-analysis)  
 
 Furthermore, I'm deeply interested in continuing to develop my Business Intelligence (BI) skills and deepen my overall knowledge as a data analyst.
 
