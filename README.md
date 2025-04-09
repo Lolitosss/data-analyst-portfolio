@@ -11,6 +11,14 @@ To further deepen my knowledge, I completed the Google Data Analytics Profession
 
 ## Featured Projects
 
+### 📊 Power BI Sales Performance Dashboard
+
+* **Description:** This project focuses on building an interactive **Sales Performance Dashboard** using **Power BI**. The dashboard provides a comprehensive view of **sales trends, profit margins, product performance, and regional distribution** over multiple years. Key metrics like **Net Revenue**, **Profit**, and **Profit Margin** are visualized using a variety of charts, including bar charts, line graphs, and KPI indicators. The project highlights Power BI's capabilities in data modeling, creating calculated measures, and building dynamic visualizations.  
+* **Technologies Used:** Power BI, DAX, SQL  
+* **Link:** [Power BI Sales Performance Dashboard](https://github.com/Lolitosss/data-analyst-portfolio/tree/main/power-bi)
+* **Visualizations:** ![E-commerce Report](./power-bi/dashboard.png)
+
+
 ### 🎵 Music and 🧠 Mental Health Analysis
 
 * **Description:** This project investigates the relationship between music preferences and mental well-being. Using a dataset from Kaggle, I explored correlations between preferred music genres, listening habits, and mental health indicators such as anxiety, depression, insomnia, and OCD. The analysis involved data cleaning in Excel, SQL analysis in BigQuery, and data visualization in Tableau to identify potential associations and trends.
